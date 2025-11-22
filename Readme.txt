@@ -3,5 +3,6 @@ git init
 git add .
 git commit -m "Initial commit"
 
-git remote add origin YOUR_REMOTE_REPO_URL
+git remote add origin https://github.com/winnerboy7/docker-mysql-phpmyadmin.git
 git push -u origin master
+
