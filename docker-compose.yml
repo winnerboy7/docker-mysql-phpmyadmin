@@ -27,7 +27,7 @@ services:
   phpmyadmin:
     image: phpmyadmin:latest
     # image: phpmyadmin/phpmyadmin:latest
-    container_name: mysql-admin
+    container_name: mysql-cluster-admin
     restart: always
     ports:
       - 8080:80
