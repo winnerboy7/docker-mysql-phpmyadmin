@@ -37,8 +37,8 @@ services:
       MEMORY_LIMIT: 1024M
       PMA_HOST: ${MYSQL_HOST}
       PMA_PORT: ${MYSQL_PORT}  
-      PMA_ABSOLUTE_URI: "https://training.scoutthailand.org/admindb/"
-      PMA_ARBITRARY: "0"
+      # PMA_ABSOLUTE_URI: "https://training.scoutthailand.org/admindb/"
+      # PMA_ARBITRARY: "0"
       # MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       # PMA_ARBITRARY: 1
     # depends_on:
